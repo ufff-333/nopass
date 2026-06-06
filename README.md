@@ -85,5 +85,5 @@ If you encounter issues:
 
 This project is provided "as is", without any warranty of any kind. Use at your own risk. Create a Backup beforehand to prevent data loss
 
-- your NopassSMP team
+# -your NopassSMP team
 
