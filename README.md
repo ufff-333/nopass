@@ -63,7 +63,7 @@ This project includes plugins and components that may come from external sources
 
 All rights to these components remain with their original creators.
 
-If you are the owner of any content included in this project and wish for it to be removed or credited differently, [contact me here](mailto:nopass.smp@gmail.com)
+If you are the owner of any content included in this project and wish for it to be removed or credited differently, [contact us here](mailto:nopass.smp@gmail.com)
 
 We will respond to valid requests and take appropriate action.
 
