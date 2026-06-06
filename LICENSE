@@ -1,16 +1,19 @@
-MIT License
+# NopassSMP Custom License
 
-Copyright (c) 2026 ufff-333
+Copyright (c) 2026 Konstantin Rosner
+## Permission
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+of this software and associated files (the "Software"), to use, copy, modify,
+merge, publish, distribute, sublicense, and/or sell copies of the Software,
+subject to the conditions below.
+
+## Conditions
 
 The above copyright notice and this permission notice shall be included in all
 copies or substantial portions of the Software.
+
+## Disclaimer
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
@@ -19,3 +22,19 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+## Third-Party Components (Plugins)
+
+This project may include third-party plugins or libraries.
+
+These components are not covered by this license and are subject to their
+respective original licenses.
+
+Users are responsible for:
+
+checking the license of each third-party component
+ensuring compliance with those licenses
+verifying whether commercial use is allowed
+
+Some plugins may not permit commercial use or redistribution.
+You must respect the original authors’ terms.
