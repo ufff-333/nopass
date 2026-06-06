@@ -1,14 +1,89 @@
+
 # nopass
-a library for my SMP plugins and files
 
-## how to use the files provided
-I have 3 servers set up (1 Velocity and 2 PaperMC) the servers will be labled Proxy for the proxy server, which runns Velocity, Lobby, which is one of the PaperMC servers and lastly Main, which is the second PaperMC server.
+A library and full server setup for SMP plugins and server configuration.
 
-You will just have to download all of the files and put them inside your server files. All serverfiles will be included so for an exact build, you will have to delete all files in your serverfile and replace them with the Files, I provide. If you do not want an exact replica but only the plugin files, head into the server directory for whichever serverplugins you want to get (Proxy, Main or Lobby) then head to the plugin directory and download all the Files. The Plugins are mostly not my property, but published by private people on publishing platforms such as Modrinth. Some Plugins are also created using AI tools such as Claude and ChatGPT. I will credit the original creators of the plugins below and take down any content, that does not belong to me, if the owner of said content requests it. Some serverfiles may be left out to prevent hacking or databreaches on my server and some lines may be replaced with "<change me to appropriate value>" you will have to change these lines to whatever fits with your config. Please backup your server before modifying it with the files here, as you may run into issues. 
+## Server Structure
 
-Please for the love of god, do not mess with the values of the files, that don't explicitly tell you to as it may lead to permanent issues and data corruption.
+This setup uses three servers:
 
-If you have any issues with the files provided, ask ChatGPT for help, ask a family member or shoot me an email at nopass.smp@gmail.com
+* Proxy → Velocity proxy server
+* Lobby → PaperMC server (hub/lobby)
+* Main → PaperMC server (main gameplay server)
 
-### NOTICE: When you only use PaperMC, some Plugins may not work as intend
+
+
+## Installation
+
+### Full Setup (Recommended for exact replica)
+
+1. Stop all servers
+2. Create a backup of your existing server files
+3. Delete all contents inside each server directory
+4. Copy and paste the provided files into each respective server folder
+
+This will create an exact replica of the intended server network setup.
+
+
+
+### Plugin-Only Setup
+
+If you only want to use the plugins:
+
+1. Open the server directory you want to modify:
+
+   * Proxy
+   * Lobby
+   * Main
+
+2. Navigate to:
+   plugins/
+
+
+3. Copy only the plugin files you want to use into your existing server
+
+
+
+## Important Notes
+
+* Some configuration values are intentionally removed or replaced with empty strings (""). These must be manually configured before use.
+* Do not modify configuration values unless you are instructed to do so, as this may result in plugin errors, data corruption, or server instability.
+* Always create a full backup of your server before applying any changes.
+* Some plugins may not function correctly in all environments, especially when using PaperMC without Velocity.
+
+
+
+## Third-Party Content
+
+This project includes plugins and components that may come from external sources, including:
+
+* Public plugin platforms such as Modrinth
+* Independent developers
+* AI-assisted development tools
+
+All rights to these components remain with their original creators.
+
+If you are the owner of any content included in this project and wish for it to be removed or credited differently, contact:
+
+[nopass.smp@gmail.com](mailto:nopass.smp@gmail.com)
+
+We will respond to valid requests and take appropriate action.
+
+
+
+## Support
+
+If you encounter issues:
+
+* Check the documentation of the individual plugins
+* Consult community resources
+* Seek external technical support if necessary
+
+
+
+## Disclaimer
+
+This project is provided "as is", without any warranty of any kind. Use at your own risk. Create a Backup beforehand to prevent data loss
+
+- your NopassSMP team
 
